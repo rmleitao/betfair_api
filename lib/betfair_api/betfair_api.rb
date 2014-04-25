@@ -22,7 +22,7 @@ module BetfairApi
 
     def test_connect
       uri = URI.parse("https://identitysso.betfair.com/api/certlogin")
-      pem = File.read(@confi.pem_cert_path)
+      pem = File.read(@config.pem_cert_path)
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
       http.cert = OpenSSL::X509::Certificate.new(pem)
