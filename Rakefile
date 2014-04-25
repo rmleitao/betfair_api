@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "betfair_api"
   gem.homepage = "http://github.com/rmleitao/betfair_api"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Betfair API-NG wrapper}
+  gem.description = %Q{Betfair API-NG wrapper}
   gem.email = "rmleitao@gmail.com"
   gem.authors = ["Rui Leitão"]
   # dependencies defined in Gemfile
