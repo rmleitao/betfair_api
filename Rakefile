@@ -22,6 +22,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "rmleitao@gmail.com"
   gem.authors = ["Rui Leitão"]
   # dependencies defined in Gemfile
+  gem.files = Dir.glob('lib/**/*.rb')
 end
 Jeweler::RubygemsDotOrgTasks.new
 
